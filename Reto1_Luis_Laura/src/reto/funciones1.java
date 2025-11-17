@@ -10,11 +10,11 @@ public class funciones1 {
         return a - b;
     }
 
-    public static boolean esPar(int n) {
+    public static boolean espar(int n) {
         return n % 2 == 0;
     }
 
-    public static boolean esImpar(int n) {
+    public static boolean esimpar(int n) {
         return n % 2 != 0;
     }
 }

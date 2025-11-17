@@ -2,7 +2,7 @@ package reto;
 
 public class funciones2 {
 
-	public static int multiplica (int a, int b) {
+	public static int multiplicar (int a, int b) {
 		return a*b;
 	}
 	
