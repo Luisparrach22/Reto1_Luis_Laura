@@ -8,8 +8,7 @@ public class Reto1 {
         Scanner sc = new Scanner(System.in);
         int opciones = 0;
 
-        funciones1 f1 = new funciones1();  
-        funciones2 f2 = new funciones2(); 
+         
 
         do {
 
@@ -33,45 +32,45 @@ public class Reto1 {
                 case 1:
                     a = Funciones.dimeEntero("Número 1:", sc);
                     b = Funciones.dimeEntero("Número 2:", sc);
-                    System.out.println("Resultado: " + f1.sumar(a, b));
+                    System.out.println("Resultado: " + funciones1.sumar(a, b));
                     break;
 
                 case 2:
                     a = Funciones.dimeEntero("Número 1:", sc);
                     b = Funciones.dimeEntero("Número 2:", sc);
-                    System.out.println("Resultado: " + f1.restar(a, b));
+                    System.out.println("Resultado: " + funciones1.restar(a, b));
                     break;
 
                 case 3:
                     a = Funciones.dimeEntero("Número 1:", sc);
                     b = Funciones.dimeEntero("Número 2:", sc);
-                    System.out.println("Resultado: " + f2.multiplicar(a, b));
+                    System.out.println("Resultado: " + funciones2.multiplicar(a, b));
                     break;
 
                 case 4:
                     a = Funciones.dimeEntero("Número 1:", sc);
                     b = Funciones.dimeEntero("Número 2:", sc);
-                    System.out.println(f2.dividir(a, b));
+                    System.out.println(funciones2.dividir(a, b));
                     break;
 
                 case 5:
                     a = Funciones.dimeEntero("Introduce número:", sc);
-                    System.out.println("Es par: " + f1.espar(a));
+                    System.out.println("Es par: " + funciones1.espar(a));
                     break;
 
                 case 6:
                     a = Funciones.dimeEntero("Introduce número:", sc);
-                    System.out.println("Es impar: " + f1.esimpar(a));
+                    System.out.println("Es impar: " + funciones1.esimpar(a));
                     break;
 
                 case 7:
                     a = Funciones.dimeEntero("Introduce número:", sc);
-                    System.out.println("Es positivo: " + f2.positivo(a));
+                    System.out.println("Es positivo: " + funciones2.positivo(a));
                     break;
 
                 case 8:
                     a = Funciones.dimeEntero("Introduce número:", sc);
-                    System.out.println("Es negativo: " + f2.negativo(a));
+                    System.out.println("Es negativo: " + funciones2.negativo(a));
                     break;
 
                 case 0:
