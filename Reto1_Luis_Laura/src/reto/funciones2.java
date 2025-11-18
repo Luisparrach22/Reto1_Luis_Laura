@@ -6,7 +6,7 @@ public class funciones2 {
 		return a*b;
 	}
 	
-	public static double dividir (int a, int b) {
+	public static double dividir (double a, int b) {
 		if (b==0){
 			return b;
 		}else {
