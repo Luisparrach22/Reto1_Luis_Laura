@@ -7,7 +7,12 @@ public class funciones2 {
 	}
 	
 	public static double dividir (int a, int b) {
-		return a/b;
+		if (b==0){
+			return b;
+		}else {
+			return a/b;
+					}
+
 	}
 	
 	public static boolean positivo (int n) {
